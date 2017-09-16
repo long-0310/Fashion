@@ -1,0 +1,180 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+  .single-product-item{
+  		height: 250px;
+		margin-bottom: 15px;
+	}
+
+	.single-product-item:nth-child(2){
+	  height: 520px;
+	}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+	 .big-menu li{
+	  font-size: 30px;
+	}
+	.main-search form{
+	  margin-left: 25%;
+	}
+
+	.big-menu li a{
+	  padding: 130px 30px 30px;
+	}
+
+	.single-product-item{
+  		width: 31.33%;
+  		
+	}
+
+	.single-product-item:nth-child(2){
+	  width: 64.66%;
+	}
+
+	.single-product-item:nth-child(4){
+	  width: 64.66%;
+	}
+
+	.single-product-item:nth-child(9){
+	  width: 64.66%;
+	}
+	.promo-bg{
+		padding: 20px;
+		padding-bottom: 0;
+	}
+
+	.brand-images img {
+	    padding: 6px 20px 6px 6px;
+	}
+	.footer-area, .footer-area .text-right{
+		text-align: center;
+	}
+	.footer-menu{
+		margin-left: 30px;
+	}
+
+	.footer-menu li{
+		
+	}
+	    
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    .main-search,.header-left ul,.header-right,.owl-carousel .owl-item .single-slide-item img{
+    	display: none;
+    }
+
+    .off-canvas-menu{
+		width: 200px;
+    }
+
+    .homepage-slider-wrap, .homepage-slider-wrap div{
+    	height: auto;
+    }
+
+    .header-top-area{
+    	position: relative;
+    	background: #f8eeed;
+    }
+
+    .header-top-area a {
+    	padding: 15px 15px 5px;
+    }
+    .slide-text-tablecell{
+	  font-size: 50px;
+	  line-height: 60px;
+	  text-align: center;
+	  padding: 50px 0;
+	}
+	
+	.big-menu li{
+		float: none;
+		width: auto;
+		font-size: 40px;
+	}
+
+	.big-menu li:nth-child(2), .big-menu li:nth-child(3){
+	  width: auto;
+	}
+
+	.big-menu li a{
+		text-align: center;
+		padding: 50px;
+	}
+
+	.single-product-item,.single-product-item:nth-child(2),.single-product-item:nth-child(4),.single-product-item:nth-child(9){
+	  width: 100%;
+	  float: none;
+	}
+	
+
+	.product-bottom span.product-price {
+	   margin-right: 20px;
+	}
+	
+	.promo-content{
+		padding: 20px;
+	}
+	.promo-bg{
+		padding-top: 20px;
+	}
+
+	.promo-title h2{
+		font-size: 25px;
+	}
+
+	.promo-title span.year-text{
+	    
+	    left: 30%;
+	    font-size: 70px;
+	}
+	
+	.brand-images img {
+	    margin-left: 30px;
+	    padding: 10px;
+	}
+
+	.product-promotions .owl-dots{
+	  position: relative;
+	  right: auto;
+	  top: auto;
+	  text-align: center;
+	  width: 100%;
+	}
+
+	.product-promotions .owl-dots div{
+	  display: inline-block;
+	  margin:5px;
+	}
+	
+	.footer-area, .footer-area .text-right{
+		text-align: center;
+	}
+	.footer-menu{
+		margin-left: 30px;
+	}
+
+	.footer-menu li{
+		
+	}
+
+	.email-subscribe-form input[type="email"]{
+	  width: 100%;
+	}
+
+	.email-subscribe-form input[type="submit"]{
+	  margin-top: 10px;
+	  width: 100%;	
+	}
+
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
